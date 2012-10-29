@@ -77,8 +77,16 @@ autocmd BufNewFile,BufRead *.thrift if &ft == 'conf' | setl filetype=thrift
 autocmd BufNewFile,BufRead *.json setl ft=javascript sw=4 ts=4 et
 autocmd BufNewFile,BufRead *.md setl filetype=markdown
 
+let mapleader=","
+let g:mapleader=","
+nnoremap <silent> <F5> :NERDTree<CR>
 map th :tabprev<CR>
 map tl :tabnext<CR>
+map <C-t><C-t> :tabnew<CR>
+map <C-t><C-w> :tabclose<CR>
+map <S-H> gT
+map <S-L> gt
+nmap <leader>/ :nohl<CR>
 nnoremap <silent> <F12> :TlistToggle<CR>
 
 highlight ExtraWhitespace ctermbg=red guibg=red
