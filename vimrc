@@ -107,6 +107,9 @@ nnoremap <silent> <F7> :TagbarToggle<CR>
 " set focus to TagBar when opening it
 let g:tagbar_autofocus = 1
 
+" --- SnipMate
+let g:snipMateAllowMatchingDot = 0
+
 let NERDTreeIgnore=['\~$', '\.lo$', '\.la$', '\.pyc']
 
 let Tlist_Use_Right_Window = 1
