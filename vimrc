@@ -89,6 +89,14 @@ map <S-L> gt
 nmap <leader>/ :nohl<CR>
 nnoremap <silent> <F12> :TlistToggle<CR>
 
+" ,p toggles paste mode
+nmap <leader>p :set paste!<BAR>set paste?<CR>
+
+" allow multiple indentation/deindentation in visual mode
+vnoremap < <gv
+vnoremap > >gv
+
+
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
