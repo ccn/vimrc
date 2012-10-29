@@ -101,6 +101,12 @@ let g:SuperTabDefaultCompletionType = "context"
 let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
 let g:SuperTabContextDiscoverDiscovery = ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
 
+" --- TagBar
+" toggle TagBar with F7
+nnoremap <silent> <F7> :TagbarToggle<CR>
+" set focus to TagBar when opening it
+let g:tagbar_autofocus = 1
+
 let NERDTreeIgnore=['\~$', '\.lo$', '\.la$', '\.pyc']
 
 let Tlist_Use_Right_Window = 1
