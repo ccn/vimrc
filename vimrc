@@ -49,6 +49,7 @@ Bundle 'gnuchangelog'
 Bundle 'sprsquish/thrift.vim'
 Bundle 'fs111/pydoc.vim'
 Bundle 'Efficient-python-folding'
+Bundle 'ervandew/supertab'
 
 " vim-snipmate dependencies
 Bundle "MarcWeber/vim-addon-mw-utils"
