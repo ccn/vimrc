@@ -51,6 +51,7 @@ Bundle 'fs111/pydoc.vim'
 Bundle 'Efficient-python-folding'
 Bundle 'ervandew/supertab'
 Bundle 'YankRing.vim'
+Bundle 'csharp.vim'
 
 " vim-snipmate dependencies
 Bundle "MarcWeber/vim-addon-mw-utils"
@@ -75,6 +76,7 @@ autocmd BufNewFile,BufRead *.mako setl filetype=mako
 autocmd BufNewFile,BufRead *.gradle setl filetype=groovy sw=4 ts=4 et
 autocmd BufNewFile,BufRead *.thrift if &ft == 'conf' | setl filetype=thrift
 autocmd BufNewFile,BufRead *.json setl ft=javascript sw=4 ts=4 et
+autocmd BufNewFile,BufRead *.aspx setl filetype=cs
 autocmd BufNewFile,BufRead *.md setl filetype=markdown
 
 let mapleader=","
