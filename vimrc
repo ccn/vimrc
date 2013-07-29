@@ -52,6 +52,7 @@ Bundle 'Efficient-python-folding'
 Bundle 'ervandew/supertab'
 Bundle 'YankRing.vim'
 Bundle 'csharp.vim'
+Bundle 'gregsexton/gitv'
 
 " vim-snipmate dependencies
 Bundle "MarcWeber/vim-addon-mw-utils"
