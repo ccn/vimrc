@@ -19,6 +19,7 @@ set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.i
 
 set incsearch
 set hlsearch
+set nofoldenable
 
 syntax on
 
